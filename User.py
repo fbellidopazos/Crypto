@@ -5,9 +5,6 @@ array={"a":"31","b":"32","c":"33","d":"34","e":"35","f":"36","g":"37","h":"38","
 array1 = {v: k for k, v in array.items()}
 encrypt=CryptoLib.encrypt()
 while(True):
-    #Get all Keys
-
-
     #Menu
     input1=str(input("\nMenu \n=================================================== \n1.-Encode \n2.-Decode \n3.-Keys(Recommended after introducing other keys) \n4.-Exit \n=================================================== \nCommand: "))
     if(input1.lower()=="encode"):
