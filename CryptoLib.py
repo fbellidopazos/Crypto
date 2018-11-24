@@ -86,3 +86,8 @@ def encrypt():
     # 3=ee
     # 4=dd
     return(encryption)
+def dencrypt(msg,dd,n,array):
+    msgDeEncrypt=pow(msg,dd,n)
+    msgDeEncrypt=deencode(str(msgDeEncrypt),array)
+
+    return(str(msgDeEncrypt))
