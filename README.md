@@ -13,3 +13,7 @@ How-To
 2.-Ejecutar Crypto-User.py <br />
   &nbsp;2.1.-Para consulta de claves una vez encriptado --> Visitar RSA.txt<br />
 3.-Fin<br />
+
+Requisites
+==================================== 
+> pip install sympy
